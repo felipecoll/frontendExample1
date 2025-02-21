@@ -120,7 +120,6 @@ body {
 }
 
 .secondary-bottom {
-    .primary-button {
         background-color: var(--white);
         border-radius: 8px;
         border: 1px solid var(--hospital-green);
@@ -130,7 +129,12 @@ body {
         font-size: var(--md);
         font-weight: bold;
         height: 50px;
-    }
+}
+
+.value {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
 }
 
 .login-button {
