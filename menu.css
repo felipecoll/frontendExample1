@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root {
-    --white: #FFFFFF;
+    --white: #ffffff;
     --black: #000000;
-    --very-light-pink: #C7C7C7;
-    --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
-  }
+}
+
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif; /* Aplica la fuente */
+}
 
 .desktop-menu {
     width: 100px;
